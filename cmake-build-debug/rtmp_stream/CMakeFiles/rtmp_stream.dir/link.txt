@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc librtmp_stream.a CMakeFiles/rtmp_stream.dir/rtmp_stream.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib librtmp_stream.a

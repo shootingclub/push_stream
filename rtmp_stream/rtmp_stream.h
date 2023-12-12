@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 extern "C" {
-#include "rtmpdump/2.4-20151223_3/include/librtmp/rtmp.h"
+#include "/opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/include/librtmp/rtmp.h"
 }
 
 

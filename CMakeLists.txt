@@ -20,10 +20,13 @@ set(SOURCE_FILES
         main.cpp
 )
 
-add_executable(main ${SOURCE_FILES})
 
 add_subdirectory(rtmp_stream)
 add_subdirectory(test)
+
+add_executable(main ${SOURCE_FILES})
+
+
 
 
 

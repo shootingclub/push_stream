@@ -11,10 +11,8 @@ set(SOURCE_FILES
 add_library(rtmp_stream STATIC ${SOURCE_FILES} ${HEADER_FILES})
 
 target_include_directories(rtmp_stream PUBLIC .)
-# 添加ffmpeg库
-#include_directories(/opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/include)
-#link_directories(/opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/lib)
-#
-#target_link_libraries(pushStream
-#        rtmp
-#)
+# 添加librtmp.a静态库
+include_directories(/opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/lib)
+link_directories(/opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/lib)
+# 将静态库连接给 add_library(rtmp_stream 用
+target_link_libraries(rtmp_stream /opt/homebrew/Cellar/rtmpdump/2.4-20151223_3/lib/librtmp.a)
