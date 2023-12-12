@@ -1,0 +1,50 @@
+{
+  "homebrew_version": "4.0.11",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": null,
+  "time": 1700132707,
+  "source_modified_time": 0,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-08-22",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.1.4",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/rtmpdump.rb",
+    "tap": "homebrew/core",
+    "tap_git_head": "01a69debd371a999569132807d2c643ed93d4808",
+    "spec": "stable",
+    "versions": {
+      "stable": "2.4-20151223",
+      "head": null,
+      "version_scheme": 0
+    }
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 12.0",
+    "cpu_family": "arm_firestorm_icestorm"
+  }
+}
